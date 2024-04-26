@@ -5,7 +5,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-section {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,28 +13,28 @@ section {
     margin: 0 17px;
 }
 
-h1 {
+.section__feature-heading {
     font-size: 40px;
     color: #242424;
     margin: 30px 0;
 }
 
-h2 {
+.article__feature-heading {
     font-size: 15px;
     color: #242424;
     margin: 15px 0;
 }
 
-.text {
+.article__text-content {
     font-size: 15px;
     text-align: justify;
 }
 
-.section__upper-row, .section__lower-row {
+.features-row {
     display: flex;
 }
 
-.section__content-wrapper {
+.article__content-wrapper {
     max-width: 300px;
     margin: 15px 15px;
 }
